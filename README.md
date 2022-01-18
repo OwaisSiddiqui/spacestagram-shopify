@@ -13,6 +13,10 @@ Then go to the `shopify-spacestagram` folder and run the following command to in
 
     npm install
 
+You need a NASA API key from here: [NASA Open APIs](https://api.nasa.gov/). Then, you need to create a `.env` file on root folder and put in the following environment variable with your API key:
+
+    REACT_APP_NASA_API_KEY=YOUR_API_KEY_HERE
+
 Now, to run the app on `localhost` (with port `3000` as the default), use the following command using `npm`:
 
     npm run start
