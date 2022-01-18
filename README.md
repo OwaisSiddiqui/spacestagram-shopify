@@ -4,6 +4,22 @@ This is the repo for my [Front End Developer Intern Challenge - Summer 2022](htt
 
 Hosted code link (using Vercel): [spacestagram-shopify.vercel.app](http://spacestagram-shopify.vercel.app/ "spacestagram-shopify.vercel.app")
 
+## Features
+
+This app utilizes NASA's APOD (Astronomy Photo of the Day) API. It has all the technical requirements for the challenge which are:
+
+ - Fetch data from one of NASA’s APIs and display the resulting images
+-   Display descriptive data for each image (for example: title, date, description, etc.)
+-   Like an image
+-   Unlike an image
+
+Some extra features I added are:
+
+ - Add infinite scrolling and a loading state while we wait for NASA’s API to return data
+ - Create shareable links for each image
+ - Zoom in / zoom out photo on click
+
+In addition, the HTML being served client side is accessible and semantic.
 
 ## Installation
 
@@ -24,23 +40,6 @@ Now, to run the app on `localhost` (with port `3000` as the default), use the fo
     npm run start
     
 Now the app should be running on `http://localhost:3000`.
-
-## Features
-
-It has all the technical requirements for the challenge which are:
-
- - Fetch data from one of NASA’s APIs and display the resulting images
--   Display descriptive data for each image (for example: title, date, description, etc.)
--   Like an image
--   Unlike an image
-
-Some extra features I added are:
-
- - Add a loading state while we wait for NASA’s API to return data
- - Create shareable links for each image
- - Zoom in / zoom out photo on click
-
-The HTML being served client side is accessible and semantic.
 
 ## Technologies
 
