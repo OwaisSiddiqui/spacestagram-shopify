@@ -1,28 +1,24 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-interface ContainerProps {
-  $showViewer: boolean;
-}
-
-export const Container = styled(motion.div)<ContainerProps>`
+export const Container = styled(motion.div)`
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   z-index: 2;
-  /* display: ${({ $showViewer }) => ($showViewer ? "flex" : "none")}; */
 `;
 
 export const ImageContainer = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
+  backdrop-filter: blur(10px);
 `;
 
 interface ImageProps {

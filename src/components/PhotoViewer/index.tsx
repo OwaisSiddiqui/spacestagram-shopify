@@ -9,14 +9,12 @@ const variants: Variants = {
     opacity: 0,
     transitionEnd: {
       display: "none",
-    },
-    backdropFilter: "blur(0px)",
+    }
   },
   show: {
     transform: "scale(1)",
     opacity: 1,
-    display: "flex",
-    backdropFilter: "blur(10px)",
+    display: "flex"
   },
 };
 
@@ -30,7 +28,6 @@ const PhotoViewer = () => {
       onClick={() =>
         setPhotoViewerData({ show: false, url: photoViewerData.url })
       }
-      $showViewer={photoViewerData.show}
       variants={variants}
       animate={photoViewerData.show ? "show" : "hide"}
       transition={{ type: "tween", duration: 0.1 }}
