@@ -6,7 +6,7 @@ Hosted code link (using Vercel): [spacestagram-shopify.vercel.app](http://spaces
 
 ## Features
 
-This app utilizes NASA's APOD (Astronomy Photo of the Day) API. It has all the technical requirements for the challenge which are:
+This app utilizes NASA's APOD (Astronomy Picture of the Day) API. It has all the technical requirements for the challenge which are:
 
  - Fetch data from one of NASA’s APIs and display the resulting images
 -   Display descriptive data for each image (for example: title, date, description, etc.)
@@ -17,7 +17,7 @@ Some extra features I added are:
 
  - Add infinite scrolling and a loading state while we wait for NASA’s API to return data
  - Create shareable links for each image
- - Zoom in / zoom out photo on click
+ - Zoom in / zoom out image on click
 
 In addition, the HTML being served client side is accessible and semantic.
 
