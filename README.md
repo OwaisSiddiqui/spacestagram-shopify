@@ -1,6 +1,8 @@
 # Spacestagram - Shopify
 
-This is the repo for my [Front End Developer Intern Challenge - Summer 2022](https://docs.google.com/document/d/13zXpyrC2yGxoLXKktxw2VJG2Jw8SdUfliLM-bYQLjqE/edit#) submission for Shopify. Here is the link for the hosted code (using Vercel): [spacestagram-shopify.vercel.app](http://spacestagram-shopify.vercel.app/ "spacestagram-shopify.vercel.app")
+This is the repo for my [Front End Developer Intern Challenge - Summer 2022](https://docs.google.com/document/d/13zXpyrC2yGxoLXKktxw2VJG2Jw8SdUfliLM-bYQLjqE/edit#) submission for Shopify.
+
+Hosted code link (using Vercel): [spacestagram-shopify.vercel.app](http://spacestagram-shopify.vercel.app/ "spacestagram-shopify.vercel.app")
 
 
 ## Installation
@@ -52,11 +54,13 @@ The following front-end technologies were used to develop the project:
  - ESLint (for linting)
  - Prettier (for code formatting)
 
-It also uses Vercel for deploying the app online. This was done my pairing the repo onto the Vercel account and pushing changes to the `main` branch to deploy the app.
+It also uses Vercel for deploying the app online. This was done my syncing this GitHub repo onto the Vercel account and pushing changes to the `main` branch to deploy the app.
 
 ## Project structure
 
-All the React components are in the `components` folder. Each folder in the `components` folder is the name of a component and has a `index.tsx` for the main React component and a `styles.ts` with the styled components. Example structure:
+All the React components are in the `components` folder. Each folder in the `components` folder is the name of a component and has a `index.tsx` file for the main React component and a `styles.ts` file with the styled components. 
+
+Example structure:
 
 - `components`
 	- `Navbar`
